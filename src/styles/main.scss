@@ -1,0 +1,62 @@
+//@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+body * {
+  //font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo {
+  width: 4rem;
+  margin-top: 0.2rem !important;
+  @media (max-width: 1250px) {
+    margin-left: 10px;
+  }
+  @media (max-width: 991px) {
+    width: 3rem;
+    margin-top: 0.7rem !important;
+  }
+  @media (max-width: 750px) {
+    width: 2.5rem;
+    margin-top: 0.4rem !important;
+    margin-left: -2px;
+  }
+  @media (max-width: 400px) {
+    width: 2rem;
+    margin-top: 0.8rem !important;
+  }
+}
+
+p {
+  color: var(--primary-grey);
+  font-size: 12pt;
+  line-height: 22pt;
+  text-align: justify;
+  @media (max-width: 600px) {
+    font-size: 10pt;
+  }
+}
+
+:root {
+  --primary-white: #fff;
+  --primary-pink: #e31b6d;
+  --primary-dark: rgba(255, 255, 255, 0);
+  --primary-blue: #04c2c9;
+  --primary-grey: #616161;
+  --primary-light-grey: #b8b8b8;
+  --primary-background: #f5f5f5;
+  --primary-background-black: #1e242c;
+  --primary-text-form: #8d8d8d;
+  --background-header-footer: #252934;
+  --primary-background-nav: #1b242f;
+  --primary-footnote: #8f9aa7;
+}
+
+@import "navbar.scss";
+@import "header.scss";
+@import "about-me.scss";
+@import "services.scss";
+@import "experience.scss";
+@import "portfolio.scss";
+@import "contact-me.scss";
+@import "footer.scss";

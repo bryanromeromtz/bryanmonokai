@@ -1,0 +1,138 @@
+.footer {
+  background-color: var(--primary-background-nav);
+  padding: 2rem 2rem 0.7rem 2rem;
+  position: relative;
+  .footer-wrapper {
+    margin-top: 40px;
+  }
+  .social-media {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 100px 100px 100px 100px;
+    @media (max-width: 500px) {
+      grid-template-columns: 85px 85px 85px 85px;
+    }
+    //height: 150px;
+    list-style: none;
+
+    & li a:nth-child(2n-1) {
+      color: var(--primary-white);
+      //font-size: 30px;
+    }
+    & li a:nth-child(2n) {
+      color: var(--primary-white);
+      //font-size: 25px;
+    }
+    & li {
+      display: inline-block;
+      width: 70px;
+      height: 60px;
+      overflow: hidden;
+      background-color: var(--background-header-footer);
+      @media (max-width: 500px) {
+        width: 60px;
+        height: 50px;
+      }
+    }
+    & li a {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+      align-items: center;
+      justify-content: center;
+      transition: 0.5s;
+    }
+    & li:hover a {
+      transform: translateY(-100%);
+      background-color: var(--primary-blue);
+    }
+  }
+  .social-size-up {
+    @media (max-width: 600px) {
+      font-size: 25px;
+    }
+  }
+  .social-size-down {
+    font-size: 27px;
+  }
+  .foot-note {
+    color: var(--primary-footnote);
+    font-size: 11pt;
+    opacity: 0.6;
+    @media (max-width: 600px) {
+      font-size: 10pt;
+    }
+  }
+  .space-copy {
+    color: var(--primary-pink);
+  }
+}
+
+.scroll-top-btn {
+  background: var(--primary-pink);
+  cursor: pointer;
+  font-size: 30pt;
+  height: 50px;
+  left: 0;
+  line-height: 40pt;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: -25px;
+  transition: 0.5s ease-in-out;
+  width: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: #fb1f79;
+    transition: 0.3s ease-in-out;
+  }
+
+  .double-arrow {
+    color: white;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    font-size: 35px;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+// aimation of scroll button
+
+.pulsate-bck:hover {
+  -webkit-animation: pulsate-bck 0.5s ease-in-out infinite both;
+  animation: pulsate-bck 0.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-bck {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
