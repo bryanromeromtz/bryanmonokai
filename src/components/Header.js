@@ -24,6 +24,36 @@ const Header = () => {
           <span className="text-btn">Contact me&nbsp;</span>
           <FontAwesomeIcon className="btn-main-offer__icon" icon={faArrowRight} />
         </Link>
+
+      </div>
+      <div className="animation-area">
+        <ul className="box-area">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </div>
   )
