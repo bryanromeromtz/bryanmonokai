@@ -1,0 +1,31 @@
+.cursor {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-white) !important;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate(-50%, -50%) !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+  z-index: 1040;
+  @media (max-width: 600px) {
+    display: none;
+  }
+}
+
+.cursor-change-color {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid var(--primary-blue) !important;
+  pointer-events: none;
+  overflow: hidden;
+  transform: translate(-50%, -50%) !important;
+  -webkit-transform: translate(-50%, -50%) !important;
+  z-index: 1040;
+  @media (max-width: 600px) {
+    display: none;
+  }
+}

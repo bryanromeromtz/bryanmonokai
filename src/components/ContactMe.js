@@ -166,7 +166,7 @@ const ContactMe = () => {
               {errors.message && errors.message.message}
             </p>
             <div className="align-btn">
-              <button className="btn-main-offer contact-btn" type="submit">Send Message!</button>
+              <button className="btn-main contact-btn" type="submit">Send Message!</button>
             </div>
           </form>
         </div>

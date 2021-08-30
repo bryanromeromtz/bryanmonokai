@@ -68,6 +68,9 @@
     .contact-btn {
       line-height: none !important;
       background-color: transparent;
+      &:hover {
+        cursor: url(../static/assets/custom-cursor.png) !important;
+      }
       @media (max-width: 415px) {
         height: 50px;
       }
@@ -99,7 +102,7 @@ textarea.form-control {
 
 .error-message {
   color: var(--primary-pink);
-  opacity: 60%;
+  //opacity: 60%;
   font-size: 14px;
   margin-top: -6px;
   text-align: left;
@@ -119,7 +122,7 @@ textarea.form-control {
   }
 
   .alert-send-message {
-    opacity: 80%;
+    //opacity: 80%;
     width: 250px;
     background-color: mediumspringgreen;
     padding: 20px 40px;

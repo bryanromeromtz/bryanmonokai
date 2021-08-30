@@ -20,7 +20,7 @@ const Header = () => {
           typingDelay={1200}
           cursorClassName="cursor-typed"
         />
-        <Link smooth={true} to="contact" className="btn-main-offer">
+        <Link smooth={true} to="contact" className="btn-main">
           <span className="text-btn">Contact me&nbsp;</span>
           <FontAwesomeIcon className="btn-main-offer__icon" icon={faArrowRight} />
         </Link>

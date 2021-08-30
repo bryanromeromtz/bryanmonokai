@@ -4,6 +4,7 @@
 body * {
   //font-family: "Open Sans", sans-serif;
   font-family: "Raleway", sans-serif;
+  cursor: url(../static/assets/custom-cursor.png), auto;
 }
 
 .logo {
@@ -60,3 +61,5 @@ p {
 @import "portfolio.scss";
 @import "contact-me.scss";
 @import "footer.scss";
+@import "cursor.scss";
+@import "background-animation.scss";

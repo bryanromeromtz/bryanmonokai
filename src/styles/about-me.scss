@@ -65,7 +65,7 @@
   .about-link-to-contact {
     color: var(--primary-blue);
     text-decoration: none;
-    cursor: pointer;
+    cursor: url(../static/assets/custom-cursor.png);
     &:hover {
       color: #069ea3;
     }

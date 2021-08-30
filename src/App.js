@@ -10,13 +10,13 @@ import Experience from './components/Experience';
 import Portfolio from './components/Portfolio';
 import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
+import CustomeCursor from './components/custome-cursor/customeCursor';
 //import ParticlesConfig from './components/ParticlesConfig';
 
 function App() {
   return (
     <div className="App">
-      {/* <Particles
-        params={ParticlesConfig} /> */}
+      <CustomeCursor />
       <Header />
       <Navbar />
       <AboutMe />

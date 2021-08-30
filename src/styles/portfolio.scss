@@ -71,7 +71,7 @@
 .portfolio-image-box:hover .portfolio-icon {
   opacity: 80%;
   transition: 0.3s ease-in-out;
-  cursor: pointer;
+  cursor: url(../static/assets/custom-cursor.png);
 }
 
 // modal projects
@@ -100,7 +100,7 @@
 }
 
 .hyper-link {
-  cursor: pointer;
+  cursor: url(../static/assets/custom-cursor.png);
   color: var(--primary-blue);
   transition: 0.1s ease-in-out;
   border: none;
