@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div id="home" className="header-wrapper">
       <div className="main-info">
-        <h2 className="header-title"><span>👋</span>Hello, I'm<span className="color-bryan"> Bryan Monokai</span><span className="color-exclamation">.</span></h2>
+        <h2 className="header-title"><span>👋</span>Hello, I'm<span className="color-bryan"> Bryan Faraone</span><span className="color-exclamation">.</span></h2>
         <h2 className="header-title">Im a full-stack web developer</h2>
 
         <ReactTypingEffect

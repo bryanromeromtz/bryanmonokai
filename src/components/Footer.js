@@ -55,7 +55,7 @@ const Footer = () => {
         </ul>
         <div className="copy-rights">
           <p className="p-3 text-center foot-note">
-            BRYAN MONOKAI<span className="space-copy"> &copy;{new Date().getFullYear()}&nbsp;
+            BRYAN FARAONE<span className="space-copy"> &copy;{new Date().getFullYear()}&nbsp;
             </span>
           </p>
         </div>
